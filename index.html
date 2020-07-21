@@ -2,6 +2,10 @@
 <html>
 <body>
 <h1>Yes</h1>
-<p></p>
+<p>Current as of: <span id="datetime"></span></p>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
 </body>
 </html>
